@@ -1,0 +1,210 @@
+.CircularProgressbar-path {
+    stroke: #4A2FBD !important;
+}
+
+.CircularProgressbar-trail {
+    stroke: transparent !important;
+}
+
+.CircularProgressbar-text {
+    font-weight: bold;
+    fill: white !important;
+}
+
+.CircularProgressbar-background {
+    fill: green;
+}
+
+.skill .nav.nav-pills {
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+}
+
+.skill .nav.nav-pills .nav-item {
+    width: 50%;
+}
+
+.skill .nav.nav-pills .nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+}
+
+.skill .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+
+.skill .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+
+.skill .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.nav-link#projects-tabs-tab-first {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 55px 0px 0px 55px;
+}
+
+.nav-link#projects-tabs-tab-second {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#projects-tabs-tab-third {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0 55px 55px 0;
+}
+
+.soft-skill {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background-size: 200% .08em;
+    background-position: 200% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s, background-position .3s .3s;
+}
+
+.soft-skill:hover {
+    top: -10px;
+    transition: background-size .3s .3s, background-position .3s;
+    background-size: 200% 100%;
+    background-position: 100% 100%;
+}
+
+
+.soft-skill h3 {
+    color: #B8B8B8;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 15px 0px 15px 5px;
+    text-align: center;
+    width: 56%;
+}
+
+.icon{
+    color: #B8B8B8;
+}
+
+.soft-skill:hover h3, .soft-skill:hover .icon{
+    font-weight: bold;
+    color: white;
+}
+
+/* #skills-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabs {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15), 0 6px 12px 0 rgba(24, 94, 224, 0.15);
+    padding: 0.75rem;
+    border-radius: 99px;
+}
+
+.tabs * {
+    z-index: 2;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 54px;
+    width: 200px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 99px;
+    cursor: pointer;
+    transition: color 0.15s ease-in;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.75rem;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    transition: 0.15s ease-in;
+}
+
+input[type=radio]:checked+label {
+    color: var(--primary-color);
+}
+
+input[type=radio]:checked+label>.notification {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+input[id=radio-1]:checked~.glider {
+    transform: translateX(0);
+}
+
+input[id=radio-2]:checked~.glider {
+    transform: translateX(100%);
+}
+
+input[id=radio-3]:checked~.glider {
+    transform: translateX(200%);
+}
+
+.glider {
+    position: absolute;
+    display: flex;
+    height: 54px;
+    width: 200px;
+    background-color: var(--secondary-color);
+    z-index: 1;
+    border-radius: 99px;
+    transition: 0.25s ease-out;
+}
+
+@media (max-width: 700px) {
+    .tabs {
+        transform: scale(0.6);
+    }
+} */
